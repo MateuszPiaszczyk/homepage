@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/conteiner.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/tableConteiner.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <script defer src="js/script.js"></script>
+    <title>Moja nie pierwsza strona | PiaszczykStudio HTML</title>
+</head>
+
+<body class="body">
+    <header class="section__header">
+        <a href="https://piaszczykstudio.pl">
+            <img width="250" class="section__headerImage" src="https://piaszczykstudio.pl/wp-content/uploads/2022/12/PS1poziom.png"
+                alt="Logo PiaszczykStudio.pl">
+        </a>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__listItem">
+                <a class="navigation__link" href="#o-mnie">o mnie</a>
+            </li>
+            <li class="navigation__listItem">
+                <a class="navigation__link" href="#doswiadczenie">doswiadczenie</a>
+            </li>
+            <li class="navigation__listItem">
+                <a class="navigation__link" href="#oferta">oferta</a>
+            </li>
+            <li class="navigation__listItem">
+                <a class="navigation__link" href="#kontakt">kontakt</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="conteiner">
+        <section class="section" id="o-mnie">
+            <h1 class="section__mainHeading">
+                Mateusz Piaszczyk
+            </h1>
+            <img width="200" height="200" class="section__image--author"
+                src="https://piaszczykstudio.pl/wp-content/uploads/2022/12/Mateusz.jpeg" alt="Mateusz Piaszczyk">
+            <p class="section__contentText">Nazywam się Mateusz Piaszczyk i jestem <strong>grafikiem komputerowym</strong>, a
+                także mam nadzieje
+                przyszłym
+                <strong>front-end developerem</strong> 😊.
+            </p>
+        </section>
+        <section class="section" id="doswiadczenie">
+            <article>
+                <h2 class="section__subHeading">
+                    doświadczenie
+                </h2>
+                <p class="section__contentText">
+                    Swoje <strong>doświadczenie w projektowaniu</strong> zdobyłem dzięki współpracy takimi podmiotami jak:
+                </p>
+                <b>studia filmowe</b>, <b>fundacje</b>, <b>sklepy</b>, <b>salon wirtualnej rzeczywistości</b> <i>(w którym
+                    pracowałem w latach 2018-2020 jako grafik i webmaster)</i>
+            </article>
+
+        </section>
+        <section class="section" id="oferta">
+            <h2 class="section__subHeading">
+                oferta
+            </h2>
+            <p class="section__contentText">
+                moja oferta obehmuję: <b>loga</b>, <b>plakaty i ulotki</b> <b>identyfikacje wizualną</b>, <b>strony
+                    internetowe</b>, <b>montaz filmowy</b> i wszelkiego rodzaju inne <b>materiały reklamowe</b>.
+            </p>
+            <div class="tableConteiner">
+                <table class="table">
+                    <caption class="caption">Tabela oferowanych usług * <strong>Napisz do mnie, w celu uzyskania
+                            indywidualnej oferty :)</strong></caption>
+                    <thead>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="col">NAZWA USŁUGI</th>
+                            <th class="table__cell table__cell--header" scope="col">RODZAJ USŁUGI</th>
+                            <th class="table__cell table__cell--header" scope="col">OPIS</th>
+                            <th class="table__cell table__cell--header" scope="col">CENA</th>
+                    </thead>
+                    <tbody>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row" rowspan="3">Nowoczesne strony internetowe</th>
+                            <td class="table__cell">STRONA WORDPRESS</td>
+                            <td class="table__cell">Projekt strony zbudowany w oparciu o CMS Wordpress</td>
+                            <td class="table__cell">null</td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell">SKLEP WOOCOMERCE</td>
+                            <td class="table__cell">Projekt sklepu internetowego oparciu o CMS Woocomerce</td>
+                            <td class="table__cell">null</td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell">INNA STRONA</td>
+                            <td class="table__cell">Indywidualny projekt</td>
+                            <td class="table__cell">null</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row" rowspan="4">Kreatywne Projekty Graficzne</th>
+                            <td class="table__cell">PROJEKT LOGO</td>
+                            <td class="table__cell">Logo to główny element twojej marki, a ja pomogę Ci je zaprojektować
+                            </td>
+                            <td class="table__cell">null</td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell">WIZYTÓWKA</td>
+                            <td class="table__cell">Nowa elegancka wizytówka dla twojego biznesu, już w zasięgu ręki :)
+                            </td>
+                            <td class="table__cell">null</td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell">ULOTKA/PLAKAT</td>
+                            <td class="table__cell">Organizujesz jakąś imprezę lub zakładasz nową działalność? Dobry
+                                Projekt Ulotki lub Plakatu napewno Ci się przyda!</td>
+                            <td class="table__cell">null</td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell">IDENTYFIKACJA WIZUALNA</td>
+                            <td class="table__cell">Identyfikacja wizualna to sposób prezentowania Twojej firmy w postaci
+                                określonego wizerunku. Świadome podjęcie szeregu działań, w wyniku których Twoja marka
+                                staje się rozpoznawalna i budzi konkretne, oczekiwane skojarzenia u odbiorców.</td>
+                            <td class="table__cell">null</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row" rowspan="3">Montaż filmowy </th>
+                            <td class="table__cell">FILM REKLAMOWY</td>
+                            <td class="table__cell">Jeżeli szukasz montażysty do materiałów reklamowych, filmów
+                                produktowych. To dobrze! Napisz do mnie jak najszybciej :) </td>
+                            <td class="table__cell">null</td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell"> MATERIAŁ NA YOUTUBE</td>
+                            <td class="table__cell">Jeżeli szukasz montażysty bo tworzysz własny kanał na platformie
+                                Youtube i potrzebujesz wsparcia. To dobrze! Napisz do mnie jak najszybciej :)</td>
+                            <td class="table__cell">null</td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell">ANIMOWANE INTRO</td>
+                            <td class="table__cell">Potrzebujesz animowanego intro do swojej produkcji filmowej? Napisz do
+                                mnie jak najszybciej :) </td>
+                            <td class="table__cell">null</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="section" id="kontakt">
+            <article>
+            <h3 class="section__subHeading">
+                inne moje pasje i ciekawostki
+            </h3>
+            <p class="section__contentText">
+                Oprócz tego uwielbiam <i>podróować</i> i robię to jak tylko mogę, na codzień towarzyszy mi <i>muzyka</i>
+                lubię tez czytać <i>ksiązki</i> i <i>ogólnie poznawać i pracować z ludzmi</i> <br>
+                Chociaz od urodzenia jestem osobą niepełnosprawną i poruszam się na wózku to <strong> jednym z moich
+                    największych marzeń jest załorzenie własnej rodziny </strong> i dojscie do takiego etapu w zyciu aby
+                <strong>pomagać tez innym spełniać ich marzenia</strong><br>
+
+                A ciekawostką dodatkową jest to, ze w 2021 roku miałwm okazje występować wraz z <strong>Michałem
+                    "Miskiem"
+                    Koterskim</strong> w pierwszym odcinku programu <strong>TO TYLKO KILKA DNI</strong>, który w tamtym
+                czasie zrobił trochę szumu ^.^
+            </p>
+            <p class="section__contentText">Bardzo lubię, podejmować się nowych wyzwań i jestem otwarty na współprace, tak więc,
+                jeżeli tylko chcesz,
+                <strong>zapraszam do kontaktu 😊</strong>
+            </p>
+            </article>
+        </section>
+        
+        <em>NIECH CZAS PRACUJĘ NA TWOJĄ KORZYŚĆ</em> <br>
+        <p class="section__contentText">
+            <button class="button hiddenHeader">
+                UKRYJ PANEL NAGŁÓWKA
+            </button>
+            <button class="button js-switchThemeButton">
+                Przełącz na <span class="js-themeName"> wysoki kontrast </span>
+            </button>
+        </p>
+    </main>
+    <footer class="footer">&copy; PiaszczykStudio HTML 2022 |
+        <a class="footer__link" href="https://youcode.pl">Youcode.pl</a> Kurs
+        Frontend
+        Developer
+    </footer>
+
+</body>
+
+</html>

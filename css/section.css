@@ -1,0 +1,38 @@
+.section {
+    padding: 15px 0;
+}
+.section--centered {
+    text-align: center;
+}
+
+.section__mainHeading {
+    color: #1baae3;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0 auto;
+}
+.section__subHeading {
+    color: #1baae3;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-top: 0;
+}
+.section__contentText {
+    line-height: 1.5;
+}
+
+.section__image--author {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.section__header {
+    background-color: rgb(92, 8, 103);
+    width: 100%;   
+}
+.section__headerImage {
+    display: block;
+    margin: 0 auto;
+    padding: 25px 0;
+}

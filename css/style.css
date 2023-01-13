@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+}
+*, ::after, ::before{
+    box-sizing: inherit;
+}
+.body{
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.body--darkTheme{
+    background: #222;
+    color: white;
+}
+.body--darkThemeHeading{
+    color: yellow;
+}

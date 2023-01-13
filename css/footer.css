@@ -1,0 +1,16 @@
+
+.footer{
+    text-align: center;
+    width: 100%;
+    position: block;
+    border-top: 2px solid #1BAAE3;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #1BAAE3;
+}
