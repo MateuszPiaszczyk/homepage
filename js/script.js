@@ -15,7 +15,6 @@
 
         body.classList.toggle("body--darkTheme");
         themeName.innerText = body.classList.contains("body--darkTheme") ? "tryb normalny" : "wysoki kontrast";
-
     }
 
     const init = () => {
